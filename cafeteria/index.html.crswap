@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat's café</title>
+
+    <style>
+        body{
+            background-color: #ebbcd2;
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 4px ridge          #ffffff;
+            padding: 10px 10px 10px 10px;
+        }
+        h1.titulo{
+            color:          #e081ae;
+            font-family: Verdana, Geneva, Tahoma;
+            font-size: 30pt;
+            text-align: center;
+            text-shadow: 4px 4px 4px #250d0d;
+        }
+        img{border: 4px solid rgb(78, 39, 17); margin-left: 2%;margin-right: 10px;}
+        h2.sub-titulo{
+            color:  #632212;
+            font-family: Verdana, Geneva, Tahoma;
+            text-shadow: 2px 2px 2px rgb(0, 0, 0);
+            text-align: center;
+            font-weight: bold;
+        }
+        li.menu{
+            color:      #e2c0a0;
+            font-family: Verdana, Geneva, Tahoma;
+            text-shadow: 2px 2px 2px rgb(0, 0, 0);
+            text-align: center;
+            font-weight: bold;
+        }
+        p.menu-texto{
+            font-family: Verdana, Geneva, Tahoma;                      
+        }
+        p{
+            font-family: Verdana;
+            margin-left: 2em;margin-right: 10px;
+            font-size: 15px;  
+            color: #201406;      
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="titulo">Cat's café</h1>
+    <br>
+    <img src="cafe1.jpg" alt="imagem de pizza" width="130" height="120" border="3">
+    <img src="cafe2.jpg" alt="imagem de pizza" width="130" height="120" border="3">
+    <img src="cafe3.jpg" alt="imagem de pizza" width="130" height="120" border="3">
+    <img src="cafe4.jpg" alt="imagem de pizza" width="130" height="120" border="4">
+    <img src="cafe5.jpg" alt="imagem de pizza" width="130" height="120" border="4">
+    </p>
+        <hr>
+        <li class="menu">  Café com leite temático- R$13,00</li>
+        <p class="menu-texto">Ingredientes: grãos de expresso com leite, açucar, chantilly, cremne</p>
+        <hr>
+        <li class="menu">Café patinha de gato- R$27,00</li>
+        <p class="menu-texto">Ingredientes: café com açucar, leite, marshmellow, creme</p>
+        <hr>
+        <li class="menu"> Café de espuma de gatinho- R$20,00</li>
+        <p class="menu-texto">Ingredientes:café puro da colina, creme de baunilha, chantilly</p>
+        <hr>
+        <li class="menu"> Café cremoso saborizado; sabores baunilha ou chocolate- R$37,90</li>
+        <p class="menu-texto">Ingredientes: café, creme de baunilha, morango batido, chantilly, marshmellow, chocolate</p>
+        <hr>
+        <li class="menu"> Café creme de gatinho- R$31,90</li>
+        <p class="menu-texto">Ingredientes: café cremoso, açucar, creme, chantilly</p>
+        <hr>
+    </ol>
+    <h1 class="titulo">Cat's café</h1>
+    <br>
+    <img src="cafe7.jpg" alt="imagem de pizza" width="130" height="130" border="4">
+    <img src="cafe8.jpg" alt="imagem de pizza" width="130" height="130" border="4">
+    <img src="cafe9.jpg" alt="imagem de pizza" width="130" height="130" border="4">
+    <img src="cafe10.jpg" alt="imagem de pizza" width="130" height="130" border="4">
+    <img src="cafe11.jpg" alt="imagem de pizza" width="130" height="130" border="4">
+    <img src="cafe12.jpg" alt="imagem de pizza" width="130" height="130" border="4">
+    <h2 class="sub-titulo">Cardápio - Pizzas doces</h2>
+    <br>
+    <ol>
+        <li class="menu"> Arco-íris Gourmet - R$180,00</li>
+        <p class="menu-texto">Ingredientes: gotas de chocolate branco, marshmellow, oreo de chocolate e chocolate branco, brigadeiro, ursinho de goma, confete de chocolate e confete de chocolate de açucar colorido, doce de leite.</p>
+        <hr>
+        <li class="menu">  Urso Americano - R$67,00</li>
+        <p class="menu-texto">Ingredientes: Molho de tomate, tomate, mussarela, bacon, calabresa, ovos e cebola</p>
+        <hr>
+        <li class="menu">Hello Kitty Crocante - R$74,00</li>
+        <p class="menu-texto">Ingredientes: molho de tomate, mussarela, catupiry, azeitonas pretas</p>
+        <hr>
+        <li class="menu"> Gato e cachorro Chef (especial da casa)- R$140,00</li>
+        <p class="menu-texto">Ingredientes: Molho de tomate, azeitona, presunto, queijo mussarela, queijo prata, tomate (de brinde gato e cachorro entregam)</p>
+        <hr>
+        <li class="menu"> Pizza aniversáriante Chef- R$157,90</li>
+        <p class="menu-texto">Ingredientes:  Molho de tomate, azeitona, presunto, queijo mussarela, queijo prata, tomate (de brinde gato e cachorro entregam e cantam parabéns)</p>
+        <hr>
+        <li class="menu"> Unicórnio cascudo- R$128,90</li>
+        <p class="menu-texto">Ingredientes: pata de unicórnio (casquinha de sorvete), sorvete de algodão doce, nuttela, granulado, sorvete</p>
+        <hr>
+    </ol>
+    <p>Whatsapp: (44) 99977-4433 <br>
+        Instagran: @pizzariadosgatos <br>
+        Facebook: Cat's Pizzaria
+    </p>
+
+</body>
+</html>
