@@ -1,0 +1,174 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #aad3aa;
+    padding: 20px;
+    
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #15611f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #5daf61;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+main .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main p {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+main .contato{
+    text-align: center;
+}
+main .form-group{
+    text-align: center;
+    
+}
+ .button{
+    text-align: center;
+
+}
+
+/* Estilo das figuras */
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #15611f;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo dos posts */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.posts figure {
+    flex: 1 1 30px;
+    text-align: center;
+}
+
+.posts figure.full-width {
+    flex: 1 1 100%;
+}
+
+.posts img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.posts figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.posts figcaption a {
+    text-decoration: none;
+    color: #41e211;
+    font-weight: bold;
+}
+
+.posts figcaption a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main .content {
+        flex-direction: column;
+    }
+
+    main p {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .posts figure {
+        flex: 1 1 100%;
+    }
+}
